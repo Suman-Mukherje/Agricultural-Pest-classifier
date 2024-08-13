@@ -2,7 +2,11 @@
 
 ## Overview
 Web application for Aggricultural pest classification using deep learning model
+This application can only classify 12 types of agricultural pest which are "ants", "bees", "beetle", "catterpillar", "earthworms", "earwig", "grasshopper", "moth", "slug", "snail", "wasp", "weevil".
 
+The model used for classification is **MobileNetV2**. The dataset was sourced from Kaggle: [Dataset](https://www.kaggle.com/datasets/vencerlanz09/agricultural-pests-image-dataset).
+
+Key libraries used in this project include **PyTorch**, **PIL (Pillow)**, and **Flask**.
 
 ## Getting Started
 
